@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "App Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Web Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "UI/UX Designer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Graphic Designer",
     icon: creator,
   },
 ];
@@ -73,7 +73,7 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "Flutter",
     icon: typescript,
   },
   {
@@ -81,7 +81,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Photoshop",
     icon: redux,
   },
   {
@@ -93,15 +93,15 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
+    name: "Adobe Illustrator",
     icon: mongodb,
   },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
+    name: "davinci",
     icon: git,
   },
   {
@@ -109,62 +109,64 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Adobe XD",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "UX Designer",
+    company_name: "Ayojanam",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "January 2022 - March 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Redesigned the UI of their Menu and different Packages.",
+      "Considerably increased the quality of their content.",
+      "Designed the UI of their website and app.",
+      
+      
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Graphic Designer",
+    company_name: "Khabo",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2023 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Redesigned their Menu Card.",
+      "Designed attractive illustrations for their restaurant.",
+      "Designed posters and posts for their Instagram.",
+      
+    ],
+  },
+  {
+    title: "Graphic Designer",
+    company_name: "Furniture Lifestyle",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "May 2023 - July 2023",
+    points: [
+      "Designed posters for them.",
+      "Helped them in attracting customers with my visually appealing designs.",
+      "Developing and maintaining the visual identity and branding guidelines for Furniture Lifestyle.",
+      
+    
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    company_name: "Vedsu",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Sep 2023 - Nov 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining front-end components of web applications.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implementing responsive design principles to optimize user experience on different devices.",
     ],
   },
 ];
@@ -198,67 +200,50 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CyberFiction",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Concept of a futuristic avatar based website in a 3D appearance.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
+     
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Hazique007/Cyber-fiction-23",
   },
   {
-    name: "Job IT",
+    name: "Game Controllers",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "UI design of Game controllers website page  showcasing their limited edition products.",
     tags: [
       {
-        name: "react",
+        name: "figma",
         color: "blue-text-gradient",
       },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+    
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.instagram.com/ai_ux_porium/",
   },
   {
-    name: "Trip Guide",
+    name: "Coffee Date App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "UI design of a Coffee Date App in which users match on the basis of their taste in coffee.",
     tags: [
       {
-        name: "nextjs",
+        name: "figma",
         color: "blue-text-gradient",
       },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.instagram.com/ai_ux_porium/",
   },
 ];
 

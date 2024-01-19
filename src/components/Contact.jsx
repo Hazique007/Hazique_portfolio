@@ -37,16 +37,16 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Mohammad Hazique",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "khanhazique2304@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
-          setLoading(false);
+          setLoading(true);
           alert("Thank you. I will get back to you as soon as possible.");
 
           setForm({
