@@ -20,6 +20,7 @@ import {
   tesla,
   shopify,
   carrent,
+  
   jobit,
   tripguide,
   threejs,
@@ -199,20 +200,19 @@ const testimonials = [
 ];
 
 const projects = [
+
+  
   {
-    name: "CyberFiction",
+    name: "Nebula",
     description:
-      "A Concept of a futuristic avatar based website in a 3D appearance.",
+      "A Chatbot app of Gemini AI.",
     tags: [
       {
-        name: "react",
+        name: "flutter",
         color: "blue-text-gradient",
       },
      
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      
     ],
     image: carrent,
     source_code_link: "https://github.com/Hazique007/Cyber-fiction-23",
