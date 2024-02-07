@@ -215,7 +215,7 @@ const projects = [
       
     ],
     image: carrent,
-    source_code_link: "https://github.com/Hazique007/Cyber-fiction-23",
+    source_code_link: "https://www.linkedin.com/posts/hazique-khan-4038a41aa_nebula-chatbot-geminiintegration-activity-7158046680972484608-yrvN?utm_source=share&utm_medium=member_desktop",
   },
   {
     name: "Game Controllers",
